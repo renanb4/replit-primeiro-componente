@@ -1,13 +1,13 @@
 import React from 'react'
 
 function Negrito (propriedades) {
-  const valorRecebido = propriedades.texto;
+  const valorRecebido = propriedades.children;
 
   return <b>{valorRecebido}</b>
 }
 
 function Resultado() {
-  return <Negrito texto="Renan Michel" />
+  return <Negrito>Gertrudes</Negrito>
 }
 
 export default Resultado;
