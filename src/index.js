@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-// import App from './App';
-import Negrito from './Negrito';
+import App from './App';
+// import Negrito from './Negrito';
 import * as serviceWorker from './serviceWorker';
 
-// ReactDOM.render(<App />, document.getElementById('root'));
-ReactDOM.render(<Negrito />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
+// ReactDOM.render(<Negrito />, document.getElementById('root'));
 
 
 // If you want your app to work offline and load faster, you can change
